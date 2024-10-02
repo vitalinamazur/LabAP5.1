@@ -1,0 +1,74 @@
+﻿  LabAP5.1.cpp
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,15): error C2065: 'g': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,21): error C2065: 's': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,13): error C2660: 'h': function does not take 2 arguments
+      C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(5,8):
+      see declaration of 'h'
+      C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,13):
+      while trying to match the argument list '()'
+  
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26): error C2665: 'pow': no overloaded function could convert all the argument types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(487,46):
+      could be 'long double pow(long double,long double) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26):
+          'long double pow(long double,long double) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'long double'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,30):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(223,40):
+      or       'float pow(float,float) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26):
+          'float pow(float,float) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'float'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,30):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(486,35):
+      or       'double pow(double,double)'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26):
+          'double pow(double,double)': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'double'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,30):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(801,1):
+      or       'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26):
+          'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(585,40):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,26):
+      while trying to match the argument list '(overloaded-function, int)'
+  
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,36): error C2065: 'g': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,38): error C2065: 's': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50): error C2665: 'pow': no overloaded function could convert all the argument types
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(487,46):
+      could be 'long double pow(long double,long double) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50):
+          'long double pow(long double,long double) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'long double'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,54):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(223,40):
+      or       'float pow(float,float) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50):
+          'float pow(float,float) noexcept': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'float'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,54):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\corecrt_math.h(486,35):
+      or       'double pow(double,double)'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50):
+          'double pow(double,double)': cannot convert argument 1 from 'double (__cdecl *)(const double,const double,const double)' to 'double'
+              C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,54):
+              Context does not allow for disambiguation of overloaded function
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(801,1):
+      or       'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept'
+          C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50):
+          'conditional<std::is_same_v<_Ty1,long double>||std::is_same_v<_Ty2,long double>,long double,conditional<std::is_same_v<_Ty1,float>&&std::is_same_v<_Ty2,float>,float,double>::type>::type pow(_Ty1,_Ty2) noexcept': could not deduce template argument for '__formal'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\cmath(585,40):
+              'std::enable_if_t<false,int>' : Failed to specialize alias template
+      C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,50):
+      while trying to match the argument list '(overloaded-function, int)'
+  
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(11,59): error C2146: syntax error: missing ')' before identifier 'pow'
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,11): error C2065: 'a': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,13): error C2065: 'b': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,18): error C2065: 'a': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,22): error C2065: 'a': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,26): error C2065: 'b': undeclared identifier
+C:\Users\vital\source\repos\LabAP5.1\LabAP5.1\LabAP5.1.cpp(17,30): error C2065: 'b': undeclared identifier
